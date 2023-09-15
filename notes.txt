@@ -1,0 +1,37 @@
+# tool to create virtual environms
+python3 -m pip install virtualenv
+
+# create virtual environment
+python3 -m venv venv
+
+
+# activate venv
+win: 
+venv\Scripts\activate
+
+mac: 
+source venv/bin/activate
+
+# deactivate
+deactivate
+
+
+# clear the terminal
+win:
+cls
+
+mac:
+clear
+
+
+
+# install flask
+python3 -m pip install flask
+
+
+# create project
+# type the code
+
+
+# run the server
+python3 server.py
